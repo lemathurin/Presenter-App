@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* This is to restrain the TextEditor from overflowing off the screen */
+.mantine-1sdsjwa {
+    overflow: scroll;
+    max-height: calc(100vh - 3.5rem);
+}
