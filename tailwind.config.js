@@ -5,15 +5,15 @@ export default {
     extend: {
       colors: {
         lightMode: {
-          darker: "#F1F5F9", // bg-slate-100
-          lighter: "#F8FAFC", // bg-slate-50
-          border: "#E5E7EB", // border-gray-200
+          darker: "#F1F5F9",
+          lighter: "#F8FAFC",
+          border: "#E5E7EB",
           text: "#0F172A",
         },
         darkMode: {
-          darker: "#18181A", // bg-zinc-900
-          lighter: "#27272A", // bg-zinc-800
-          border: "#404040", // border-neutral-700
+          darker: "#18181A",
+          lighter: "#27272A",
+          border: "#404040",
           text: "#EDEEF0",
         },
       },
