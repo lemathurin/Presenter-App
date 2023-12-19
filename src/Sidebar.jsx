@@ -2,8 +2,8 @@ import React from "react";
 
 function Sidebar() {
   return (
-    <div className="h-screen w-60 flex-none bg-slate-100 border-gray-200 dark:bg-zinc-900 border-r-2 dark:border-neutral-700">
-      <h3 className="text-black">hey</h3>
+    <div className="h-screen w-60 flex-none bg-lightMode-darker border-lightMode-border dark:bg-darkMode-darker dark:border-darkMode-border border-r-2">
+      <h3 className="text-lightMode-text dark:text-darkMode-text">hey</h3>
     </div>
   );
 }

@@ -7,11 +7,7 @@ function TextEditor() {
 
   // Renders the editor instance using a React component.
   return (
-    <BlockNoteView
-      editor={editor}
-      className="w-full h-full bg-gray-100 dark:bg-gray-800"
-      theme="light"
-    />
+    <BlockNoteView editor={editor} className="w-full h-full" theme="light" />
   );
 }
 
