@@ -31,7 +31,7 @@ const lightTheme = {
     },
     menu: {
       text: "text-lightMode-text",
-      background: "bg-lightMode-darker",
+      background: "#F8FAFC",
     },
     tooltip: {
       text: "#ffffff",
@@ -39,15 +39,15 @@ const lightTheme = {
     },
     hovered: {
       text: "text-lightMode-text",
-      background: "bg-lightMode-lighter",
+      background: "#F1F5F9",
     },
     selected: {
       text: "#ffffff",
       background: "#F76B15",
     },
     disabled: {
-      text: "#9b0000",
-      background: "#7d0000",
+      text: "#E8E8E8",
+      background: "#CECECE",
     },
     shadow: "rgba(0, 0, 0, 0.2)",
     border: "border-lightMode-border",
@@ -62,31 +62,31 @@ const lightTheme = {
 const darkTheme = {
   colors: {
     editor: {
-      text: "text-darkMode-text",
+      text: "#EDEEF0",
       background: "bg-darkMode-lighter",
     },
     menu: {
-      text: "text-darkMode-text",
-      background: "bg-darkMode-darker",
+      text: "#EDEEF0",
+      background: "#18181A",
     },
     tooltip: {
       text: "#ffffff",
       background: "#F76B15",
     },
     hovered: {
-      text: "text-darkMode-text",
-      background: "bg-darkMode-lighter",
+      text: "#EDEEF0",
+      background: "#27272A",
     },
     selected: {
       text: "#ffffff",
       background: "#F76B15",
     },
     disabled: {
-      text: "#9b0000",
-      background: "#7d0000",
+      text: "#7B7B7B",
+      background: "#484848",
     },
     shadow: "rgba(0, 0, 0, 0.2)",
-    border: "border-darkMode-border",
+    border: "#404040",
     sideMenu: "#bababa",
     highlightColors: darkDefaultTheme.colors.highlightColors,
   },

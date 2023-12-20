@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 /* This is to restrain the TextEditor from overflowing off the screen */
-.mantine-1sdsjwa {
+.mantine-Editor-root {
     overflow: scroll;
-    max-height: calc(100vh - 3.5rem);
+    max-height: calc(100vh - 6rem);
+    /* border-radius: 0 !important; */
+    /* margin-left: 2.5rem; */
+    /* margin-top: 2.5rem; */
 }
