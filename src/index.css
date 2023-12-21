@@ -6,7 +6,12 @@
 .mantine-Editor-root {
     overflow: scroll;
     max-height: calc(100vh - 6rem);
-    /* border-radius: 0 !important; */
-    /* margin-left: 2.5rem; */
-    /* margin-top: 2.5rem; */
+}
+
+.tiptapeditor {
+    overflow: scroll;
+    max-height: calc(100vh - 3.5rem);
+    padding-top: 3.5rem;
+    padding-left: 3.5rem;
+    outline: none;
 }
